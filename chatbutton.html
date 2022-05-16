@@ -38,10 +38,10 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://unimelb1--lizzy.my.salesforce.com',
-			'https://lizzy-unimelb.cs151.force.com/community',
+			'https://unimelb1--barry.my.salesforce.com',
+			'https://barry-unimelb.cs152.force.com/community',
 			gslbBaseURL,
-			'00D5O000000967y',
+			'00D5P0000008aZi',
 			'Current_Study_Contact_Centre_Chat',
 			{
 				baseLiveAgentContentURL: 'https://c.la1-c1cs-syd.salesforceliveagent.com/content',
@@ -56,7 +56,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://unimelb1--lizzy.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://unimelb1--barry.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
